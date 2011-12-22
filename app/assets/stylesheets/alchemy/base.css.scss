@@ -3511,3 +3511,17 @@ object.swfupload {
 .mceEditor table {
 	border-spacing: 0 !important;
 }
+
+#dropbox {
+	background: $medium-gray;
+	border: $default-border;
+	@include rounded-corner;
+	padding: $default-padding;
+	text-align: center;
+	line-height: 12em;
+	&.dragover {
+		background: $dark-gray;
+		color: $light-gray;
+		border-color: $light-gray;
+	}
+}
