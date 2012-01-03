@@ -1,4 +1,4 @@
-@import "alchemy/defaults";
+@import "defaults";
 
 html {
 	height: 100%;
@@ -1696,7 +1696,7 @@ button.button {
 input.button {
 	padding-left: 8px;
 	padding-right: 8px;
-	padding-bottom: 2px;
+	padding-bottom: 1px;
 	height: 25px;
 }
 
@@ -3519,7 +3519,7 @@ object.swfupload {
 	padding: $default-padding;
 	margin-bottom: 2*$default-padding;
 	text-align: center;
-	line-height: 6em;
+	line-height: 4em;
 	&.dragover {
 		background: $dark-gray;
 		color: $light-gray;
