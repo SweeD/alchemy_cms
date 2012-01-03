@@ -48,6 +48,7 @@ module Alchemy
 		end
 
 		def humanized_name
+			return "" if image_filename.blank?
 			(image_filename.downcase.gsub(/\.#{Regexp.quote(suffix)}$/, '')).humanize
 		end
 
