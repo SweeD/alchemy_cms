@@ -57,7 +57,7 @@ en:
       text: 'Text'
       date: 'Date'
       body: 'Content'
-      image: 'Image(s)'
+      image: 'Image'
       mail_from: 'Sender (E-Mail)'
       mail_to: 'Receiver (E-Mail)'
       caption: "Caption"
@@ -197,8 +197,10 @@ en:
     content_essence_not_found: "Content essence not found"
     content_not_found: "Field for content not present."
     copy_element: "Copy this element"
+    copy_language_tree_heading: "Copy page tree"
     copy_page: "Copy page"
     "Create language": "Create a new language"
+    create_language_tree_heading: "Create empty language tree"
     create_page: "Create a new subpage"
     create_user: "Create a new user"
     created_at: "Created at"
@@ -352,7 +354,7 @@ en:
     url_name: "URL-Name"
     urlname_to_short: "The pages urlname is too short (minimum of 3 characters)"
     username: "Username"
-    want_to_create_new_language: "Or do you want to create a new empty language tree?"
+    want_to_create_new_language: "Do you want to create a new empty language tree?"
     want_to_make_copy_of_existing_language: "Do you want to copy an existing language tree?"
     welcome_please_identify_notice: "Welcome! Please identify."
     width: "Width"
@@ -374,7 +376,8 @@ en:
       # Use the strftime parameters for formats.
       # When no format has been given, it uses default.
       # You can provide other formats here if you like!
-      default: "%Y-%m-%d" 
+      default: "%Y-%m-%d"
+      datepicker: "%Y-%m-%d"
       short: "%b %d" 
       long: "%B %d, %Y" 
     day_names: [Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday]
@@ -393,6 +396,7 @@ en:
       short: "%d %b %H:%M" 
       long: "%B %d, %Y %H:%M" 
       date: "%Y-%m-%d"
+      datepicker: "%Y-%m-%d"
     am: "am" 
     pm: "pm" 
   support:

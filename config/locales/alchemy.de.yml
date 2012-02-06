@@ -59,7 +59,7 @@ de:
       text: 'Text'
       date: 'Datum'
       body: 'Inhalt'
-      image: 'Bild(er)'
+      image: 'Bild'
       mail_from: 'Absender (E-Mail)'
       mail_to: 'Empfänger (E-Mail)'
       caption: "Bildunterschrift"
@@ -309,7 +309,7 @@ de:
     "Your trash is empty": "Der Papierkorb ist leer"
     above: "darüber"
     add: "hinzufügen"
-    "add new content": "+ einen Inhalt hinzufügen"
+    "add new content": "Element hinzufügen"
     add_image_to_element: "Bild hinzufügen"
     align_in_text: "Im Text anordnen"
     all: "alle"
@@ -340,8 +340,10 @@ de:
     copy: "kopieren"
     copy_element: "Element kopieren"
     copy_page: "Seite kopieren"
+    copy_language_tree_heading: "Einen Sprachbaum kopieren"
     create: "erstellen"
     "Create language": "Eine neue Sprache erstellen"
+    create_language_tree_heading: "Einen leeren Sprachbaum erstellen"
     create_page: "Eine Unterseite anlegen"
     create_user: "Einen Benutzer anlegen"
     created_at: "Erstellt am"
@@ -511,7 +513,7 @@ de:
     urlname_to_short: "Der URL-Name der Seite ist zu kurz (min. 3 Zeichen)"
     username: "Benutzername"
     visible: "sichtbar"
-    want_to_create_new_language: "Oder wollen Sie einen neuen leeren Sprachbaum erstellen?"
+    want_to_create_new_language: "Wollen Sie einen neuen leeren Sprachbaum erstellen?"
     want_to_make_copy_of_existing_language: "Wollen Sie eine Kopie eines vorhanden Sprachbaums machen?"
     "We need at least one default.": "Es muss eine Standardsprache geben."
     welcome_please_identify_notice: "Willkommen! Bitte identifizieren Sie sich."
@@ -546,6 +548,7 @@ de:
   date:
     formats:
       default: "%d.%m.%Y"
+      datepicker: "%d.%m.%Y"
       short: "%e. %b"
       long: "%e. %B %Y"
       only_day: "%e"
@@ -563,6 +566,7 @@ de:
       short: "%d. %B, %H:%Mh"
       long: "%A, %d. %B %Y um %H:%M Uhr"
       date: "%d.%m.%Y"
+      datepicker: "%d.%m.%Y"
       time: "%H:%M"
     am: "vormittags"
     pm: "nachmittags"
@@ -787,7 +791,7 @@ de:
         alchemy/language:
           attributes:
             code:
-              invalid: 'ist nicht korrekt. Bitte exakt zwei Kleinbuchstaben verwenden.'
+              invalid: '^Sprachkürzel ist nicht korrekt. Bitte exakt zwei Kleinbuchstaben verwenden.'
   
   # Translations for the authentication system used in alchemy.
   authlogic:
